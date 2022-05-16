@@ -1,11 +1,11 @@
 <?php
 class Cuccia extends Prodotto{
     //variabili d'istanza
+    private $arrayId = ['1za','2xs'];
+    private $idProdotto;
     private $descrizione;
     private $materiale;
     private $struttura;
-    private $arrayId = ['1za','2xs'];
-    private $idProdotto;
 
     //costruttore
     function __construct($id);

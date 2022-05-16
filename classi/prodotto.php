@@ -14,11 +14,12 @@ class Prodotto{
         $this->$idProdotto = $idProdotto;
     }
 
-    for($i = 0; $i < count($this->arrayProdotti); $i++)
+    //metodi
+    function ritornaProdotto($idProdotto)
     {
-        if($this->nomeProdotto === $this->arrayProdotti[0])
+        if( $this->$nomeProdotto == $this->arrayProdotti[0])
         {
-            return  new Cuccia($this->idProdotto);
+            return new Cuccia($idProdotto);
         }
     }
 }

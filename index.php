@@ -3,12 +3,13 @@
 
 $utente = new Utente('silvio','antonioli');
 
-$cuccia = new Cuccia('1za');
+$cuccia = new Prodotto('cuccia','1za');
 
 echo("<p>Il prodotto scelto ha la seguente descrizione: $cuccia->descrizione </p>");
 
-$disponibilità = $cuccia->disponibilita();
+//$disponibilità = $cuccia->disponibilita();
 //controllo che il prodotto sia disponibile
+/*
 if($disponibilità)
 {
     echo('Il prodotto è disponibile all\'acquisto');
@@ -17,5 +18,5 @@ if($disponibilità)
 }
 
 //$utente->compraProdotto('12');
-
+*/
 ?>

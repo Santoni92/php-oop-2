@@ -4,10 +4,11 @@ class Cuccia extends Prodotto{
     private $descrizione;
     private $materiale;
     private $struttura;
+    private $arrayId = ['1za','2xs'];
     private $idProdotto;
 
     //costruttore
-    function __construct($nomeprodotto,$id);
+    function __construct($id);
     {
         foreach($this->arrayId as $id)
         {

@@ -1,6 +1,6 @@
 <?php
 //phpinfo;
-
+include 'classi/prodotto.php';
 $utente = new Utente('silvio','antonioli');
 
 $cuccia = new Prodotto('cuccia','1za');
